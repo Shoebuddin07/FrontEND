@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #1a1a2e;
+}
+
+/* .container {
+    margin: 0;
+    padding: 0;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    /* background: linear-gradient(to right, #032b44 50%, #3d0b5f); */
+    background: linear-gradient(#232538, #000f14);
+    padding: 7px ;
+}
+
+.nav ul {
+    padding: 3px 27px;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav ul a{
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+h1 {
+    padding: 3px 17px;
+    cursor: pointer;
+}
+
+button {
+    background: #29d9e6;
+    padding: 7px 11px;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover{
+    background: #1e5d63;  
+    color: aliceblue;
+}
+
+.address-container {
+    cursor: default;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    gap: 40px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 37px;
+    border-radius: 7px;
+    background: #29293d;
+}
+
+.custom-form {
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#232538, #000f14);
+    gap: 13px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.custom-form form input,
+textarea {
+    font-size: x-large;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid aquamarine;
+    color: aliceblue;
+    height: 55px;
+    resize: none;
+}
+.Footer{
+    background: linear-gradient(#232538, #000f14);
+    /* gap: 13px; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 34px;
+}
+
+.f-list ul li {
+    padding: 5px 0px;
+}
+ul li:hover{
+    color: rgb(83, 140, 150);
+}

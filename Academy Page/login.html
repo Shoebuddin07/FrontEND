@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySmart Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>StudySmart The Educatinal Academy</h1>
+        <h2>Admission Form</h2>
+    </header>
+
+    <form  >
+        <fieldset>
+            <legend>Personal Details</legend> <br>
+            <label for="name">Students Name <br>
+                <input name="" placeholder="Students Name" type="text" />
+            </label> <br> <br>
+            <label for="FathersName">Father's Name <br>
+                <input name="" placeholder="Father's Name" type="text" />
+            </label> <br> <br>
+            <label for="MothersName"> Mother's Name <br>
+                <input name="" placeholder="Mother's Name" type="text" /></label> <br> <br>
+            <label for="DOB">DOB <br>
+                <input name="" type="date" /></label> <br> <br>
+
+            <label for="Email">Email <br> <input type="email" /></label><br> <br>
+
+            <label>Mobile <br> <input type="number" /> </label><br><br>
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="gender">
+            <label for="Gender">Male</label>
+            <input type="radio" name="gender">
+            <label for="Gender">Female</label>
+        </fieldset>
+        <br><br><br>
+        <fieldset>
+            <legend>Academic Details</legend>
+            <br>
+            <label>Highest Qualification</label>
+            <select>
+                <option>SSC</option>
+                <option>IPE</option>
+                <option selected>Graduation</option>
+                <option>P-Graduation</option>
+            </select> <br> <br><br>
+            <input type="checkbox">
+            <label>Did you appear for the Entrance Test </label>
+        </fieldset>
+        <br> <br>
+
+        <label>Drop your Request:</label> <br>
+        <textarea rows="7" cols="70" placeholder="give your input" >give your input</textarea>
+        <br><br>
+        <label>Select your Course</label>
+        <input list="courses">
+        <datalist id="courses"> <!-- which one is most correct among these option tags -->
+            <option value="FullStack">FullStack</option>
+            <option value="Frontend">
+            <option value="Backend">
+            <option value="DataScience">
+        </datalist>
+        <br><br>  <br><br>
+        <figure>
+            <figcaption>Nasheed</figcaption>
+            <br>
+            <audio controls src="nasheed.mp3" > </audio>
+        </figure>
+        <details>
+            <summary>check out for Exclusive Rewards!</summary>
+           <p style="color: darkkhaki;" > Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est hic voluptas consequuntur nam omnis deleniti reiciendis autem doloremque quos, reprehenderit quo, tempore amet, sequi dolores assumenda voluptatum aspernatur ratione fugiat?Lorem ipsum dolor sit amet, consectetur adipisicing elit. A vitae molestias molestiae at nobis omnis facere unde est, ut animi odit, debitis amet, mollitia rem libero blanditiis eum quibusdam reiciendis. </p>
+        </details>
+        <br><br>
+        <input type="datetime-local" > <br><br>
+        <button type="submit" > Submit</button>
+    </form>
+
+</body>
+
+</html>

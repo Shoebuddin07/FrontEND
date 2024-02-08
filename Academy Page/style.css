@@ -1,0 +1,97 @@
+body {
+    background-color: #1a1a2e;
+    color: azure;
+}
+
+header {
+    margin-top: 30px;
+    background-color: #2c2c42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-radius: 100px;
+    color: rgb(69, 218, 218);
+}
+
+fieldset{
+    padding: 23px;
+    border: 2px solid rgb(3, 128, 160);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-size: x-large;
+    line-height: 40px;
+    border: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(3, 128, 160);
+    background-color: transparent;
+  
+    color: rgb(165, 198, 211);
+}
+
+label {
+    font-size: 1.3rem;
+
+}
+
+legend,
+summary,
+details {
+    font-size: xx-large;
+}
+
+summary {
+    text-decoration: underline;
+}
+
+button {
+    font-size: large;
+    font-weight: 500;
+    border-radius: 0.7rem;
+    outline: none;
+    border: none;
+    padding: 1rem;
+    transition: all 0.3s;
+    background-color: rgb(58, 151, 136);
+color: rgb(2, 26, 48);
+}
+
+button:hover {
+    background-color: rgb(13, 159, 185);
+}
+
+figcaption {
+    font-size: x-large;
+    text-decoration: underline;
+
+}
+
+option,
+select {
+    font: 1.1rem sans-serif;
+}
+
+.container {
+    margin-top: 70px;
+    /* background: linear-gradient(#1f1f30, #3a0828) ; */
+    background-color: #2c2c42;
+    height: 450px;
+    width: 450px;
+    padding: 34px;
+    padding-top: 70px;
+    border-radius: 35px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

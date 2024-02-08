@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: azure;
+}
+section{
+ position: absolute;
+}
+p {
+    color: rgb(133, 160, 160);
+    font-size: xx-large;
+}
+
+h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    color: rgb(151, 83, 5);
+   
+}
+.prot_name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    color: rgb(196, 225, 253);
+}
+.skills {
+    color: rgb(151, 83, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+li{
+    color: rgb(144, 180, 180);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: large;
+}
+span{
+    font-style: oblique;
+  font-size: xx-large;
+}
+table{
+      font-size: xx-large;
+}
+th{
+    color: rgb(151, 83, 5);
+}
+td{
+    color: rgb(96, 129, 117);
+}
