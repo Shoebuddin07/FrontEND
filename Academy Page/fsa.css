@@ -1,0 +1,40 @@
+header ul li:hover {
+    color: rgb(161, 11, 11);
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f3e2e2;
+
+}
+
+button {
+    background: rgb(161, 11, 11);
+    color: #fff;
+    cursor: pointer;
+    padding: 7px 11px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8f7f7f;
+}
+
+.images {
+    background: #3d98ee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
