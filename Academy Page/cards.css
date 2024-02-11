@@ -1,121 +1,128 @@
 * {
-    cursor: pointer;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
-    margin: 0;
-    background-color: #1a1a2e;
-    color: aliceblue;
+  margin: 0;
+  background-color: #1a1a2e;
+  color: aliceblue;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 7px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
 }
 
 .Header {
-    position: absolute;
-    margin-top: -400px;
-    margin-left: -650px;
-    font-size: x-large;
+  position: absolute;
+  margin-top: -400px;
+  margin-left: -650px;
+  font-size: x-large;
 }
 
 .card-holder {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 7px;
-    width: 20%;
-    height: 50%;
-    background: #fff;
-    border-radius: 10px;
-    color: #1a1a2e;
-    padding: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 7px;
+  width: 20%;
+  height: 50%;
+  background: #fff;
+  border-radius: 10px;
+  color: #1a1a2e;
+  padding: 7px;
 }
 
 .card-Top {
-    height: 50%;
-    border-radius: 10px;
+  height: 50%;
+  border-radius: 10px;
 }
 
 .card-Bot {
-    background: #c1c1f0;
-    height: 50%;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+  background: #c1c1f0;
+  height: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .crtf {
-    font-size: small;
-    font-weight: 600;
-    margin: 10px 10px 3px;
-    border-radius: 7px;
-    background: goldenrod;
-    padding: 4px;
-    width: 35%;
-    text-align: center;
-    cursor: pointer;
+  font-size: small;
+  font-weight: 600;
+  margin: 10px 10px 3px;
+  border-radius: 7px;
+  background: goldenrod;
+  padding: 4px;
+  width: 35%;
+  text-align: center;
+  cursor: pointer;
 }
 
 .ratings {
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-top: 5px;
-    margin-left: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 5px;
+  margin-left: 11px;
 }
 
 h1 {
-    font-size: 1rem;
-    margin-left: 10px;
+  font-size: 1rem;
+  margin-left: 10px;
 }
 
 .card-foot {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
 }
 
 button {
-    background-color: #1a1a2e;
-    outline: none;
-    color: aliceblue;
-    border: none;
-    padding: 3px 9px;
-    border-radius: 7px;
-    font-size: 0.8rem;
+  background-color: #1a1a2e;
+  outline: none;
+  color: aliceblue;
+  border: none;
+  padding: 3px 9px;
+  border-radius: 7px;
+  font-size: 0.8rem;
 }
 
 button:hover {
-    background: rgba(32, 2, 66, 0.473);
-    color: #000;
-    cursor: pointer;
-    color: aliceblue;
+  background: rgba(32, 2, 66, 0.473);
+  color: #000;
+  cursor: pointer;
+  color: aliceblue;
 }
 
 .learn-more:hover {
-    color: rgb(126, 91, 2);
-    cursor: pointer;
+  color: rgb(126, 91, 2);
+  cursor: pointer;
 }
 
 img {
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 
 .view-more {
-    position: absolute;
-    margin-bottom: -450px;
-    background: aquamarine;
-    color: black;
-    font-weight: 600;
+  position: absolute;
+  margin-bottom: -450px;
+  background: aquamarine;
+  color: rgb(7, 38, 46);
+  font-weight: 600;
+}
+
+.view-more:hover {
+  background: #445058;
+  color: #fff;
+  transition: 0.3s;
+  transform: scale(1.2);
 }
