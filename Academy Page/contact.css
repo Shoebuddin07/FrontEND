@@ -121,3 +121,8 @@ textarea {
 ul li:hover {
     color: rgb(83, 140, 150);
 }
+
+img:hover {
+    transition: all 0.5s;
+    transform: scale(0.9);
+}

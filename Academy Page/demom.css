@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.main {
+    color: aliceblue;
+    background: #190730;
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background: #3f3c58;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 13px;
+    box-shadow: 3px 2px 15px #b1aab8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    color: rgb(155, 243, 243);
+}
+
+button {
+    background: #6b6969;
+    border: none;
+
+}
+
+form input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 14px;
+    color: aliceblue;
+}
